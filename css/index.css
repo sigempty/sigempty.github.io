@@ -248,6 +248,12 @@ span,
 .btn {
   font-family: "Arial", FangSong, STFangsong, sans-serif;
 }
+a {
+  color: #5297c7;
+}
+a:hover {
+  color: #3e8abf;
+}
 img {
   max-width: 100%;
 }
@@ -429,8 +435,8 @@ blockquote p {
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  margin-top: 3.2rem;
-  margin-bottom: 6.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   animation: intro 0.3s both;
@@ -449,26 +455,48 @@ blockquote p {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
+.page article h1,
+.page article h2,
+.page article h3 {
+  color: #5297c7;
+}
 .page article h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 .page article h2 {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
 }
 .page article h3 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
+  margin-bottom: 0rem;
 }
-.page article p,
+.page article h4 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.page article p {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
 .page article li {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.page article li {
+  ul: , ol;
+  margin-top: 1rem;
   font-size: 1.8rem;
 }
 .page article a {
-  color: #494e52;
+  color: #5297c7;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .page article a:hover {
-  color: #c62641;
+  color: #306b95;
 }
 .page article .highlight {
   overflow: auto;
@@ -498,7 +526,7 @@ blockquote p {
 }
 @media (min-width: 34em) {
   .page {
-    width: 82.5%;
+    width: 74.5%;
     float: right;
     margin-right: 0;
   }
@@ -523,33 +551,34 @@ blockquote p {
 }
 .side-card p,
 .side-card li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 .author-avatar {
   display: table-cell;
   vertical-align: top;
-  width: 40px;
-  height: 40px;
+  width: 140px;
+  height: 140px;
 }
 .author-avatar img {
-  width: 100%;
-  max-width: 110px;
-  border-radius: 50%;
+  width: 150%;
+  max-width: 140px;
+  border-radius: 60%;
 }
 .author-discrip {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 50px;
+  padding-left: 60px;
+  padding-right: 30px;
   line-height: 1;
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
 }
 .author-discrip .author-bio {
-  font-size: 1.2rem;
+  font-size: 3.5rem;
   margin: 0.3rem 0;
 }
 .author-links {
@@ -614,7 +643,7 @@ blockquote p {
   width: 115px;
   margin-top: 15px;
   padding-top: 8px;
-  padding-left: 10px;
+  left: 50px;
   list-style-type: none;
   border: 1px solid #f2f3f3;
   border-radius: 4px;
@@ -638,7 +667,7 @@ blockquote p {
   transition: all 0.2s ease-in-out;
 }
 .social-icons a {
-  font-size: 1.7rem;
+  font-size: 2.15rem;
 }
 .social-icons li {
   display: inline-block;
@@ -688,8 +717,8 @@ blockquote p {
   color: #096494 !important;
   display: inline-block;
   position: relative;
-  font-size: 1.4rem;
-  margin-left: 5.5rem;
+  font-size: 1.8rem;
+  left: 65px;
 }
 .cv-links i {
   text-decoration: underline;
@@ -700,11 +729,12 @@ blockquote p {
 @media (min-width: 66.67em) {
   .side-card {
     padding-right: 0;
+    width: 23.25%;
   }
 }
 @media (min-width: 34em) {
   .side-card {
-    width: 15.25424%;
+    width: 23.25424%;
     min-width: 165px;
     float: left;
     margin-right: 1.69492%;
